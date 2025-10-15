@@ -1,0 +1,23 @@
+{
+    "headerimage":"assets/header.jpg",
+    "title":"Title here",
+    "description":"description here",
+    "collectionURL":"data.json",
+
+    "indexes":[
+        {
+            "path":"swallow_id",
+            "filter":"no"
+        },
+        {
+            "path":"Item_Description/title",
+            "filter":"no"
+        },
+        {
+            "path":"Item_Description/genre",
+            "filter":"yes",
+            "label":"Genre"
+        }
+         
+    ]
+}
